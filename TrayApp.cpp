@@ -39,7 +39,7 @@ struct SleepPreventer {
 
 	}
 
-	static void CALLBACK onTimer(HWND hwnd, UINT msg, UINT idTimer, DWORD dwTime) {
+	static void CALLBACK onTimer(HWND hwnd, UINT msg, UINT_PTR idTimer, DWORD dwTime) {
 		if (shouldPreventNow())
 			preventSLeepByMouseMove();
 	}
