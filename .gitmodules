@@ -1,0 +1,3 @@
+[submodule "qglobalshortcut"]
+	path = qglobalshortcut
+	url = https://github.com/neurocod/qglobalshortcut.git
